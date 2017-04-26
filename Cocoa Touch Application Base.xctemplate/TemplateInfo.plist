@@ -156,33 +156,6 @@
 			<key>TargetIndices</key>
 			<array/>
 		</dict>
-		<key>Scripts/Version_Incrementing_Run_Script.sh</key>
-		<dict>
-			<key>Path</key>
-			<string>Scripts/Version_Incrementing_Run_Script.sh</string>
-			<key>Group</key>
-			<array>
-				<string>Scripts</string>
-			</array>
-		</dict>
-		<key>Scripts/DevsJustWantToHaveFun.sh</key>
-		<dict>
-			<key>Path</key>
-			<string>Scripts/DevsJustWantToHaveFun.sh</string>
-			<key>Group</key>
-			<array>
-				<string>Scripts</string>
-			</array>
-		</dict>
-		<key>Scripts/xUnique_Run_Script.sh</key>
-		<dict>
-			<key>Path</key>
-			<string>Scripts/xUnique_Run_Script.sh</string>
-			<key>Group</key>
-			<array>
-				<string>Scripts</string>
-			</array>
-		</dict>
 		<key>../travis</key>
 		<dict>
 			<key>Path</key>
@@ -205,29 +178,28 @@
 		<dict>
 			<key>TargetIndices</key>
 			<array/>
+			
 			<key>Beginning</key>
-			<string>source &apos;https://github.com/vokal/PrivatePodspecRepo-iOS.git&apos;
-source &apos;https://github.com/CocoaPods/Specs.git&apos;
+			<string>source &apos;https://github.com/CocoaPods/Specs.git&apos;
+use_frameworks!
+inhibit_all_warnings!
+platform :ios, &apos;10.0&apos;
 
-platform :ios, &apos;9.0&apos;
+def pods
+    pod &apos;SwiftLint&apos;</string>
+			<key>End</key>
+			<string>end
 
 target &apos;___PACKAGENAME___&apos; do
-    pod &apos;xUnique&apos;
-    pod &apos;DevsJustWantToHaveFun&apos;
-</string>
-			<key>End</key>
-			<string>
+	pods
+end
 
-    target &apos;___PACKAGENAME___Tests&apos; do
-        # Put pods used for both test targets here
-        pod &apos;VOKMockUrlProtocol&apos;
-        
-        target &apos;___PACKAGENAME___UITests&apos; do
-            # Put UI-testing-only pods here
-            pod &apos;KIF&apos;
-        end
-    end
+target &apos;___PACKAGENAME___Tests&apos; do
+	pods
+end
 
+target &apos;___PACKAGENAME___UITests&apos; do
+	pods
 end
 
 post_install do | installer |
