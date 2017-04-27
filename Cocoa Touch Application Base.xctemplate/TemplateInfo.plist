@@ -42,68 +42,10 @@
 			<key>TargetIndices</key>
 			<array/>
 		</dict>
-		<key>Views/.gitkeep</key>
-		<dict>
-			<key>Group</key>
-			<array>
-				<string>Views</string>
-			</array>
-			<key>Path</key>
-			<string>.gitkeep</string>
-			<key>TargetIndices</key>
-			<array/>
-		</dict>
-		<key>Controls</key>
-		<dict>
-			<key>Path</key>
-			<string>Controls</string>
-			<key>TargetIndices</key>
-			<array/>
-		</dict>
-		<key>Controls/.gitkeep</key>
-		<dict>
-			<key>Group</key>
-			<array>
-				<string>Controls</string>
-			</array>
-			<key>Path</key>
-			<string>.gitkeep</string>
-			<key>TargetIndices</key>
-			<array/>
-		</dict>
-		<key>Data Sources</key>
-		<dict>
-			<key>Path</key>
-			<string>Data Sources</string>
-			<key>TargetIndices</key>
-			<array/>
-		</dict>
-		<key>Data Sources/.gitkeep</key>
-		<dict>
-			<key>Group</key>
-			<array>
-				<string>Data Sources</string>
-			</array>
-			<key>Path</key>
-			<string>.gitkeep</string>
-			<key>TargetIndices</key>
-			<array/>
-		</dict>
 		<key>Resources</key>
 		<dict>
 			<key>Path</key>
 			<string>Resources</string>
-			<key>TargetIndices</key>
-			<array/>
-		</dict>
-		<key>Resources/___PACKAGENAME___.truecolors</key>
-		<dict>
-			<key>Group</key>
-			<array>
-				<string>Resources</string>
-			</array>
-			<key>Path</key>
-			<string>___PACKAGENAME___.truecolors</string>
 			<key>TargetIndices</key>
 			<array/>
 		</dict>
@@ -113,46 +55,6 @@
 			<string>Resources</string>
 			<key>Path</key>
 			<string>Fonts</string>
-			<key>TargetIndices</key>
-			<array/>
-		</dict>
-		<key>Resources/Fonts/.gitkeep</key>
-		<dict>
-			<key>Group</key>
-			<array>
-			    <string>Resources</string>
-				<string>Fonts</string>
-			</array>
-			<key>Path</key>
-			<string>.gitkeep</string>
-			<key>TargetIndices</key>
-			<array/>
-		</dict>
-		<key>Resources/TrueColors</key>
-		<dict>
-			<key>Group</key>
-			<string>Resources</string>
-			<key>Path</key>
-			<string>TrueColors</string>
-			<key>TargetIndices</key>
-			<array/>
-		</dict>
-		<key>Resources/TrueColors/.gitkeep</key>
-		<dict>
-			<key>Group</key>
-			<array>
-			    <string>Resources</string>
-				<string>TrueColors</string>
-			</array>
-			<key>Path</key>
-			<string>.gitkeep</string>
-			<key>TargetIndices</key>
-			<array/>
-		</dict>
-		<key>Scripts</key>
-		<dict>
-			<key>Path</key>
-			<string>Scripts</string>
 			<key>TargetIndices</key>
 			<array/>
 		</dict>

@@ -38,12 +38,6 @@
 			<key>Name</key>
 			<string>___PACKAGENAME___UITests</string>
 		</dict>
-		<dict>
-			<key>Identifier</key>
-			<string>io.vokal.dt.unit.aggregateScriptsTarget-swift</string>
-			<key>Name</key>
-			<string>Code Generation Scripts</string>
-		</dict>
 	</array>
 	<key>Targets</key>
 	<array>
@@ -231,54 +225,14 @@
 		<key>AppDelegate.swift</key>
 		<dict>
 			<key>Path</key>
-			<string>AppDelegate.swift</string>
-		</dict>
-		<key>main.swift</key>
-		<dict>
+			<string>SupportingFiles/AppDelegate.swift</string>
 			<key>Group</key>
-			<string>Supporting Files</string>
-			<key>Path</key>
-			<string>main.swift</string>
-		</dict>
-		<key>../R.generated.swift</key>
-		<dict>
-			<key>Group</key>
-			<string>Supporting Files</string>
-			<key>Path</key>
-			<string>../R.generated.swift</string>
-		</dict>
-		<key>TestingAppDelegate.swift</key>
-		<dict>
-			<key>Path</key>
-			<string>TestingAppDelegate.swift</string>
-		</dict>
-		<key>Utilities/DLog.swift</key>
-		<dict>
-			<key>Path</key>
-			<string>DLog.swift</string>
-			<key>Group</key>
-			<string>Utilities</string>
+			<string>SupportingFiles</string>
 		</dict>
 		<key>../.swiftlint.yml</key>
 		<dict>
 			<key>Path</key>
 			<string>.swiftlint.yml</string>
-			<key>Group</key>
-			<string>Non-iOS Resources</string>
-		</dict>
-		<key>Scripts/R.swift.sh</key>
-		<dict>
-			<key>Path</key>
-			<string>Scripts/R.swift.sh</string>
-			<key>Group</key>
-			<string>Scripts</string>
-		</dict>
-		<key>Scripts/Swift_Warning_Run_Script.sh</key>
-		<dict>
-			<key>Path</key>
-			<string>Scripts/Swift_Warning_Run_Script.sh</string>
-			<key>Group</key>
-			<string>Scripts</string>
 		</dict>
 	</dict>
 	<key>Project</key>
